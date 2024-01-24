@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
-background: url(../../assest/leatherimg.png);
+background : white
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -37,7 +37,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -45,10 +45,11 @@ margin-top: 20px;
 `;
 
 const Desc = styled.div`
+    
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: white;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
