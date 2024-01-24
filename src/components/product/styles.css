@@ -1,0 +1,23 @@
+@font-face{
+    font-family: myFont;
+    src: url(../../assest/Bathroom.otf);
+
+}
+
+.projectContainer>h1{
+    font-family: myfont;
+    font-size: 60px;
+    
+}
+
+.projectContainer>p{
+    font-family: myFont;
+    font-size: 30px;
+}
+.projectContainer .projectContainer__projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   background-color: whitesmoke;
+}
+   
