@@ -2,8 +2,13 @@
 import './App.css';
 import Header from './components/header/header';
 import { About } from './components/About/about';
-import {Products} from './components/product/product'
-import { Contactinfo } from './components/contactinfo';
+
+import {Contactinfo} from "../src/components/contactinfo/index.js"
+
+import RegForm from './components/regForm/regForm.js';
+import Benefit from './components/benefits/index.js';
+import Footer from './components/Footer/index,.js';
+
 
 
 
@@ -13,8 +18,10 @@ function App() {
     <div className="App">
    <Header/>
    <About/>
-   <Products/>
+   <Benefit/>
+    <RegForm/>
    <Contactinfo/>
+   <Footer/>
   
     </div>
   );

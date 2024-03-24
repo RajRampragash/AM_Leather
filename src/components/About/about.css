@@ -1,5 +1,5 @@
 .topcontainer {
-    background: url(../../assest/leatherimg.png);
+   background: url('../../assests/background.jpg');
     height: 98vh;
     background-position: center;
     background-size: cover;

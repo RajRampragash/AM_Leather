@@ -14,7 +14,8 @@ z-index: 1;
 align-items: center;
 @media (max-width: 960px) {
     padding: 0px;
-}
+}:
+background:url(../../assests//background_contact.jpeg)
 `
 
 const Wrapper = styled.div`
@@ -146,11 +147,11 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Title>Contact US</Title>
+        <Desc>Feel free to reach out to us for any questions or help!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Email or phone number" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
